@@ -9,6 +9,11 @@
       "id": 2,
       "src": "http://localhost:9000/images/anotherkitten.jpg",
       "caption": "kjsnflkasf"
+    },
+    {
+      "id": 3,
+      "src": "http://localhost:9000/images/02-cat-training-NationalGeographic_1484324.jpg",
+      "caption": "Captionlknsflkdsf"
     }
   ]
 }
