@@ -4,11 +4,11 @@ $.ajax({
   dataType: 'json',
   success: function (resp) {
     console.log(resp);
-    for (let i = 0; i < 5; i++) {
+    for (let i = 0; i < resp.length; i++) {
       let list = document.getElementById('changeMe');
       let liTag = document.createElement('li');
       let imageTag = document.createElement('img');
-      imageTag.src = resp[0].src;
+      imageTag.src = resp[i].src;
       liTag.appendChild(imageTag);
       list.appendChild(liTag);
     }
